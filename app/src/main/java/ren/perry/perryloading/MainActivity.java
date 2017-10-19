@@ -15,11 +15,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showLoading(View view) {
-//        new LoadingDialog(this, "请稍候").notCancel().show();
 
         LoadingDialog dialog = new LoadingDialog(this);
-        dialog.setMsg("msg");
-        dialog.setNotCancel();
+        dialog.setMsg("请稍等...");
         dialog.show();
     }
 }
