@@ -1,7 +1,7 @@
 ## PerryLoading
-###### 一个简洁好看的loading弹窗
+一个简洁好看的loading弹窗
 
-Gif看起来有些卡顿，但在手机上很流畅的。
+###### Gif看起来有些卡顿，但在手机上很流畅的。
 
 ![img](http://perry.ren/img/perryloading.gif)
 
