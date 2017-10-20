@@ -1,5 +1,7 @@
 ## PerryLoading
-一个简洁好看的loading弹窗
+###### 一个简洁好看的loading弹窗
+
+Gif看起来有些卡顿，但在手机上很流畅的。
 
 ![img](http://perry.ren/img/perryloading.gif)
 
@@ -28,5 +30,6 @@
 ```java
     LoadingDialog dialog = new LoadingDialog(context);
     dialog.setMsg("请稍等...");
+    dialog.setNotCancel();  //设置dialog不自动消失
     dialog.show();
 ```

@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         LoadingDialog dialog = new LoadingDialog(this);
         dialog.setMsg("请稍等...");
+        dialog.setNotCancel();//设置dialog不自动消失
         dialog.show();
     }
 }
